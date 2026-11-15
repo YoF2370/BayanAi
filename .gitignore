@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local / generated data
+.voice_cache/
+memory_db/
+test_memory_db/
+*.log
+.env
+.env.*
+.setup_complete
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Large / optional model assets (downloaded by setup_env.py)
+kokoro-v1.0.onnx
+voices-v1.0.bin
+piper_voices/*.onnx
+model/
+model_ar/
+*.zip
